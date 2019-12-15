@@ -1,0 +1,32 @@
+{
+  "name": "allen/swoft-auth",
+  "type": "library",
+  "version": "v1.0.0",
+  "keywords": [
+    "swoole",
+    "swoft",
+    "swoft-component"
+  ],
+  "description": "swoft-auth component for swoft framework",
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Allen\\Swoft\\Auth\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Allen\\Swoft\\AuthTest\\Unit\\": "test/unit/",
+      "Allen\\Swoft\\AuthTest\\Testing\\": "test/testing/"
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit -c phpunit.xml"
+  }
+}
