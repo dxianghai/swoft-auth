@@ -10,4 +10,9 @@ class JWT
     {
         var_dump($this);
     }
+
+    public function user()
+    {
+        var_dump($this);
+    }
 }
