@@ -7,7 +7,7 @@ Swoft-auth component for swoft framework
 - install by composer
 
 ```bash
-composer require root/swoft-auth
+composer require allen/swoft-auth
 ```
 
 ## LICENSE
