@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Allen\Swoft\Auth;
+namespace Swoft\Auth;
 
 use Swoft\Helper\ComposerJSON;
 use Swoft\SwoftComponent;
@@ -32,7 +32,7 @@ class AutoLoader extends SwoftComponent
     public function beans(): array
     {
         return [
-            'jwt'      => [
+            'auth'      => [
                 'class'  => JWT::class,
                 'dsn'    => 'mysql:dbname=dbname;host=127.0.0.1',
                 'config' => [
