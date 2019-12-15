@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Swoft\Auth;
+namespace Allen\Swoft\Auth;
 
 
 class JWT

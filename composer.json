@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Swoft\\Auth\\": "src/"
+      "Allen\\Swoft\\Auth\\": "src/"
     }
   },
   "require-dev": {

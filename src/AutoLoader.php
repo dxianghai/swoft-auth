@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Swoft\Auth;
+namespace Allen\Swoft\Auth;
 
 use Swoft\Helper\ComposerJSON;
 use Swoft\SwoftComponent;
